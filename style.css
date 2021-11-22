@@ -1,1 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+html{
+    font-size: 62.5%;
+}
 
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+p{
+    color:hsl(229, 6%, 66%);
+}
+.container{
+    position: relative;
+    display: grid;
+   
+    gap: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 60%;
+    margin: auto;
+    
+}
+.container div{
+    height: 18rem;
+    width: 27rem;
+    padding: 2.5rem;
+    padding-top: .5rem;
+    box-sizing: border-box;
+    box-shadow: 0 .1rem 2rem hsl(229, 6%, 66%) ;
+    box-shadow: 0 .1rem 2rem rgba(0, 0, 0, .2);
+    border-radius: .5rem;
+    
+  
+}
+.container img{
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    left: 17rem;
+    top: 2rem;
+}
+
+.bold{
+    font-weight: 600;
+}
+h1{
+    font-weight: 200;
+}
+#header{
+    height: 10rem;
+    position: relative;
+    padding: 5rem 2rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#supervisor{
+    grid-column: 1;
+    grid-row: 2;
+    border-top: solid hsl(180, 62%, 55%) .5rem;
+    
+    
+
+}
+#team-builder{
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    top: 9.5rem;
+    border-top: solid hsl(0, 78%, 62%) .5rem;
+    
+}
+#karma{
+    grid-column: 2;
+    grid-row: 3;
+    position: relative;
+    top: -9.5rem;
+    border-top: solid hsl(34, 97%, 64%) .5rem;
+
+}
+#calculator{
+    grid-column: 3;
+    grid-row: 2;
+    border-top: solid hsl(212, 86%, 64%) .5rem;
+   
+}
